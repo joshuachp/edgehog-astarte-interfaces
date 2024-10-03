@@ -10,7 +10,7 @@
       "endpoint": "/%{container_id}/status",
       "type": "string",
       "description": "Container status",
-      "doc": "Possible values [Created, Running, Stopped]"
+      "doc": "Possible values [Received, Created, Running, Stopped]"
     }
   ]
 }

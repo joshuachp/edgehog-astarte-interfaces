@@ -20,7 +20,7 @@
       "database_retention_policy": "use_ttl",
       "database_retention_ttl": 31556952,
       "description": "Container image id",
-      "doc": "The id of the image to use then creating the container."
+      "doc": "The id of the image to use when creating the container."
     },
     {
       "endpoint": "/container/networkIds",
@@ -47,20 +47,12 @@
       "doc": "The hostname to use for the container, as a valid RFC 1123 hostname."
     },
     {
-      "endpoint": "/container/image",
-      "type": "string",
-      "database_retention_policy": "use_ttl",
-      "database_retention_ttl": 31556952,
-      "description": "Container image",
-      "doc": "The name of the image to use when creating the container"
-    },
-    {
       "endpoint": "/container/restartPolicy",
       "type": "string",
       "database_retention_policy": "use_ttl",
       "database_retention_ttl": 31556952,
       "description": "Container restart policy",
-      "doc": "The behavior to apply when the container exits."
+      "doc": "The behavior to apply when the container exits. Possible values are: ['', 'no', 'always' 'unless-stopped', 'on-failure']"
     },
     {
       "endpoint": "/container/env",
@@ -83,7 +75,8 @@
       "type": "stringarray",
       "database_retention_policy": "use_ttl",
       "database_retention_ttl": 31556952,
-      "description": "Container networks"
+      "description": "Network configuration name",
+      "doc": "Name or id of an existing container network, inside the container runtime, to connect to."
     },
     {
       "endpoint": "/container/portBindings",
