@@ -74,6 +74,6 @@
       "database_retention_ttl": 3600,
       "description": "Source-specific information on what to upload to the server for the source.",
       "doc": "The value depends on the selected source type: for 'storage' is the ID of an 'io.edgehog.devicemanager.storage.File' property, for 'streaming' it's an empty string, and for 'filesystem' is a path of a file on the device."
-    }
+    },
   ]
 }
