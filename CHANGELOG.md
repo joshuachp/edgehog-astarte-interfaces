@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+### Added
+- added `io.edgehog.devicemanager.apps.ContainerEvent` interface
+- added `io.edgehog.devicemanager.apps.DeviceMappingEvent` interface
+- added `io.edgehog.devicemanager.apps.DeviceRequestEvent` interface
+- added `io.edgehog.devicemanager.apps.EnvFileEvent` interface
+- added `io.edgehog.devicemanager.apps.FileBindEvent` interface
+- added `io.edgehog.devicemanager.apps.ImageEvent` interface
+- added `io.edgehog.devicemanager.apps.NetworkEvent` interface
+- added `io.edgehog.devicemanager.apps.VolumeEvent` interface
+
 ## [0.12.0] - 2026-10-23
 ### Added
 - added `io.edgehog.devicemanager.apps.EnvFiles` interface
